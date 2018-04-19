@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Punten berekenen</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header> <h1>RobinHoodPuntenRekenmachine</h1> 
+	</header>
+	
+	<div class="beschrijving">
+
+		<p class="p"> <strong>Puntenberekening</strong><br>We gaan uit van de volgende puntenberekening:
+		 De verhouding DW en PW is 40-60, maar daarbij is er voor het totaal van semester 1 en het totaal van het semester 2 ook nog eens de verhouding 40-60 
+		</p>
+
+		<p class="p"> <strong>Wat bereken ik?</strong><br>Je krijgt te zien hoeveel procent je momenteel hebt, indien je een 0 zou halen op je examen. Daarna staat er hoeveel procent je moet halen op jouw examen om in totaal 50% op dat vak te halen voor heel het jaar. Dit kan een paar procenten ernaast zitten, dus probeer zeker meer te halen dan het wat er staat. 
+		</p>
+
+		<p class="p"> <strong>Waar vind ik mijn punten?</strong><br>Je punten 'in totaal op semester 1' vind je terug op SS bij rapport van semester 1. Je totaal voor DW van semester 2 moet je zelf berekenen (tel al je toetsen op van DW3 en DW4 en zet het dan om naar procent). In het vakje moet je enkel het getal op 100 invullen, geen procentteken achter zetten (dat gaat trouwens ook niet).
+		</p>
+
+	</div>
+
+	<div class="div">
+		<ul>
+
+		<li>Welk vak?<br>
+			<input  id="vakInput" type="text" placeholder="Vak">
+			
+		</li>
+
+		<li>Hoeveel procent had je in totaal op semester 1?<br>
+			<input  id="procentSemester1" type="number" placeholder="aantal %">
+			
+		</li>
+
+		<li>Hoeveel procent had je in totaal op je DW van semester 2?<br>
+			<input  id="procentDW2" type="number" placeholder="aantal %">
+			
+		</li>
+		<button id="button">Bereken</button><button id="reset">Reset</button>
+		</ul>
+
+		<div id="resultaat"></div>
+	</div>
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
